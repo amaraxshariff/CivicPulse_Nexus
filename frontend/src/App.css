@@ -171,3 +171,86 @@ button {
 button:hover {
   background: #047857;
 }
+
+/* ---------- Milestone 4: Governance Analytics ---------- */
+.data-table + .data-table,
+.stats + .data-table {
+  margin-top: 0;
+}
+
+.module > .data-table {
+  margin-bottom: 20px;
+}
+
+.module-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.module-head h3 {
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.actions button {
+  padding: 8px 14px;
+}
+
+.action-message {
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.drill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.bar-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 14px 0;
+}
+
+.bar-label {
+  width: 90px;
+  font-size: 0.9rem;
+}
+
+.bar-track {
+  flex: 1;
+  height: 10px;
+  background: #e2e8f0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  background: var(--secondary);
+  border-radius: 5px;
+}
+
+.bar-value {
+  width: 40px;
+  text-align: right;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.revenue-chart {
+  width: 100%;
+  margin-top: 10px;
+}
